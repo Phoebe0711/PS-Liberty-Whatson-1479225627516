@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PS-Liberty-Whatson
+  host: PS-Liberty-Whatson
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-5q
+  - PS-Liberty-Whatson-cloudantNoSQLDB
